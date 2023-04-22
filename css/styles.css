@@ -1,0 +1,215 @@
+body {
+    background-color: #FFEDDA;
+    margin: 0;
+    padding: 0;
+}
+
+/* header and nav bar */
+
+#header {
+    background-color: #19376D;
+    padding: 1% 3% 3% 3%;
+}
+
+.navbar {
+    margin-bottom: 1.5%;
+}
+
+.container-fluid, .navbar {
+    padding: 0;
+}
+
+.title-part h1 {
+    color: #FFEDDA;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#navbar h4 {
+    color: #FFEDDA;   
+}
+
+.buttons {
+    border: 2px solid #FFEDDA;
+    background-color:#FFB830;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.buttons:hover {
+    background-color: #FF2442;
+    color: #FFEDDA;
+}
+
+.right-nav-bar a  {
+    color: #FFEDDA;
+}
+
+.drop-opt a {
+    color: black;
+}
+
+
+@media (max-width: 767px) {
+    .title-part h1 {
+        color: #FFEDDA;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+/* ------------------------------------------------ */
+
+/* single flat style section */
+img {
+    transition: all ease-in-out 250ms;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+img:hover {
+    transform:scale(1.07);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.room, .flat {
+    padding: 1% 2% 3% 2%;
+    margin-bottom: 10px;
+}
+
+.room p, .flat p {
+    margin-bottom: 4px;
+}
+
+.room h6, .flat h6 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+.room, .flat {
+    position: relative;
+    width: 90%;
+    margin: 1% auto;
+}
+
+.room-item, .flat-item {
+    width: 350px;
+    margin: 15px;
+}
+
+.r-button, .f-button {
+    border: 2px solid #FFEDDA;
+    background-color:#FFB830;
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+.r-button:hover, .f-button:hover {
+    background-color: #FF2442;
+    color: #FFEDDA;
+}
+
+@media (max-width: 990px) and (min-width: 768px) {
+    .room-item, .flat-item {
+        width: 315px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .room-item, .flat-item {
+        margin-left: 0;
+    }
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #DEFCF9;
+}
+
+.main-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    gap: 6rem;
+    padding: 3% 3% 3% 3%;
+}
+
+.main-ul  li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-ul a:hover {
+    padding-left: 3px;
+}
+
+.main-ul ul {
+    padding: 0;
+    font-size: 0.85rem;
+}
+
+#about {
+    font-size: 0.9rem;
+}
+
+#contact {
+    display: flex;
+    gap: 20px;
+}
+
+.download {
+    margin-top: 2rem;
+}
+
+
+.download-btn {
+    padding: 0.6rem 3rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+
+@media (max-width: 990px) and (min-width: 768px) {
+    .download-btn {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    
+    .main-ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 0;
+        gap: 2rem;
+        padding: 3% 3% 5% 8%;
+    }
+
+    .main-ul ul {
+        padding: 0;
+        font-size: 0.9rem;
+    }
+    
+    #about {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        margin-right: 1rem;
+    }
+    
+    
+}
