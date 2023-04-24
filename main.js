@@ -20,7 +20,9 @@ function toSignUpPage() {
 }
 
 
-
+// adding time at top
+const d = new Date();
+document.getElementById("time").innerHTML = d;
 
 
 
